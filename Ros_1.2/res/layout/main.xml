@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:background="@drawable/background" >
+    <RelativeLayout
+        android:id="@+id/relativeLayoutRose"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/rose" >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="643dp"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please choose simulation mode or real control mode"
+                android:textSize="50sp" />
+
+            <Spinner
+                android:id="@+id/modeChooser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnManualModeMainNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/manual_mode"
+                android:layout_weight="1"
+                android:onClick="myClickHandler"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnActionModeMainNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/action_mode"
+                android:layout_weight="1"
+                android:onClick="myClickHandler"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnMapModeMainNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/map_mode"
+                android:layout_weight="1"
+                android:onClick="myClickHandler"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnMeetingModeMainNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/video_meeting"
+                android:layout_weight="1"
+                android:onClick="myClickHandler"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnVoiceRecModeMainNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/voice_recognition"
+                android:layout_weight="1"
+                android:onClick="myClickHandler"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnAppInfoMainNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_info"
+                android:layout_weight="1"
+                android:onClick="myClickHandler"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/define"
+        android:orderInCategory="100"
+     
+        android:title="@string/define"/>
+    
+     <item
+        android:id="@+id/locate"
+        android:orderInCategory="100"
+      
+        android:title="@string/locate"/>
+     
+      <item
+        android:id="@+id/route"
+        android:orderInCategory="100"
+        
+        android:title="@string/route"/>
+
+</menu>

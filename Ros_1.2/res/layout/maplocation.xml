@@ -1,0 +1,88 @@
+ <FrameLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+ 
+    
+     
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MapLocation" >
+
+    <TextView
+        android:id="@+id/textView5MapLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4MapLocation"
+        android:layout_alignBottom="@+id/textView4MapLocation"
+        android:layout_alignRight="@+id/textView3MapLocation"
+        android:layout_marginRight="15dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2MapLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:text="Width Pix"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4MapLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2MapLocation"
+        android:layout_below="@+id/textView2MapLocation"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView6MapLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4MapLocation"
+        android:layout_below="@+id/textView4MapLocation"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3MapLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5MapLocation"
+        android:layout_marginLeft="33dp"
+        android:layout_toRightOf="@+id/textView2MapLocation"
+        android:text="Hight Pix"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView7MapLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5MapLocation"
+        android:layout_below="@+id/textView5MapLocation"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1MapLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5MapLocation"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:text="Define" />
+
+</RelativeLayout>
+ </FrameLayout>

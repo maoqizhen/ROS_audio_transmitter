@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ros_basic_controller</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">For test basic functions</string>
+    <string name="moveForward">moveForward</string>
+    <string name="moveLeft">moveLeft</string>
+    <string name="moveRight">moveRight</string>
+    <string name="moveBack">moveBack</string>
+    <string name="turnRight">turnRight</string>
+    <string name="turnLeft">turnLeft</string>
+    <string name="text">state</string>
+    <string name="voice_recognition">voiceRecognization</string>
+    <string name="title_activity_voice">Voice</string>
+    <string name="voice">Begin_voice_recognition</string>
+    <string name="action_mode">actionMode</string>
+    <string name="video_meeting">videoMeeting</string>
+    <string name="title_activity_action_mode">ActionMode</string>
+    <string name="title_activity_video_meeting">VideoMeeting</string>
+    <string name="Voice_result_false">Please try again</string>
+    <string name="define">DEFINE</string>
+    <string name="locate">LOCATE</string>
+    <string name="route">ROUTE</string>
+     <string-array name="mode_chooser">
+        <item>Simulation</item>
+        <item>Robot</item>
+    </string-array>
+        <string name="manual_mode">manualMode</string>
+        <string name="map_mode">viewMap</string>
+        <string name="app_info">App information and Help</string>
+        <string name="pick_command">Choose An Operation as Command</string>
+        <string-array name="command_array">
+            <item>Grab with left Arm</item>
+            <item>Grab with right Arm</item>
+            <item>Place with left Arm</item>
+            <item>Place with right Arm</item>
+            <item>Open with left Arm</item>
+            <item>Open with right Arm</item>
+            <item>Clean with left Arm</item>
+            <item>Clean with right Arm</item>
+        </string-array>
+        <string name="controlTurn">Move the blue circle to turn robot.</string>
+        <string name="controlMove">Move the white circle to move robot.</string>
+</resources>

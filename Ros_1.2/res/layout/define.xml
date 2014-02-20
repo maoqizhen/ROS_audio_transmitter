@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewDefine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please define you location"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+    <EditText
+        android:id="@+id/editTextDefine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+       
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonDefine"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OK"/>
+
+</LinearLayout>
